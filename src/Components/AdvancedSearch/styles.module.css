@@ -1,0 +1,112 @@
+.advanced_search_container {
+  font-family: "Cera Round Pro DEMO MEDIUM" !important;
+  font-size: 16px !important;
+  opacity: 0;
+  width: 0;
+  visibility: hidden;
+  height: 0;
+  transition: opacity 0.2s ease-in, visibility 0s;
+}
+
+.advanced_search_button,
+.advanced_search_button_2 {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+  background-color: white;
+  padding: 15px;
+  padding-right: 0px;
+  border: 1px #c8c8c8 solid;
+  border-radius: 999px;
+  cursor: pointer;
+  width: 300px;
+}
+
+.advanced_search_button_2 {
+  padding: 10px;
+}
+
+.advanced_search_button:hover {
+  border-color: #0077b6;
+}
+
+.advanced_search_dropdown_options {
+  padding: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.currency_options_container {
+  position: absolute;
+  right: -1%;
+  top: 50%;
+  transform: translateX(100%);
+  background-color: white;
+  min-width: 100px;
+  width: fit-content;
+  border: 1px #c8c8c8 solid;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow-y: auto;
+  max-height: 350px;
+  height: fit-content;
+  display: none;
+}
+
+@media (max-width: 650px) {
+  .currency_options_container {
+    top: 101%;
+    right: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .advanced_search_button_1,
+  .advanced_search_button,
+  .advanced_search_button_2 {
+    font-size: 16px !important;
+  }
+  .advanced_search_button {
+    padding: 10px;
+  }
+  .advanced_search_button_2 {
+    padding: 8px;
+  }
+}
+
+.option_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.strong_detail {
+  font-family: "Cera Round Pro DEMO BOLD" !important;
+  font-weight: 900;
+}
+
+.advanced_search_button_1 {
+  font-size: 18px;
+  padding: 10px;
+  background-color: transparent;
+  border: grey 1px solid;
+  border-radius: 10px;
+}
+
+.advanced_search_filter_indicator {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #d8d8d8;
+  border-radius: 50%;
+  top: 0px;
+  right: 0px;
+  transform: translate(25%, -50%);
+}
+
+.advanced_search_filter_indicator_active {
+  background-color: #0077b6;
+}

@@ -1,0 +1,474 @@
+.log-in {
+  background-color: #ffffff;
+  height: fit-content;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.log-in .footer-instance {
+  left: 4px !important;
+  position: absolute !important;
+  top: 872px !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+.log-in .overlap-wrapper {
+  height: auto;
+  width: 664px;
+  max-width: 50%;
+}
+
+.log-in .overlap {
+  height: 676px;
+  left: -80px;
+  position: relative;
+  top: 3px;
+  width: 100%;
+}
+
+.log-in .vector {
+  height: 676px;
+  left: 107px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.log-in .illustration {
+  height: 566px;
+  left: 0;
+  position: absolute;
+  top: 45px;
+  width: 100%;
+}
+
+.log-in .overlap-group {
+  height: 566px;
+  position: relative;
+}
+
+.log-in .notebook {
+  height: 511px;
+  left: 123px;
+  object-fit: cover;
+  position: absolute;
+  top: 55px;
+  width: 536px;
+}
+
+.log-in .pen {
+  height: 493px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 531px;
+}
+
+.log-in .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 50%;
+}
+
+.log-in .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+  width: 446px;
+  max-width: 95%;
+  align-items: center;
+}
+
+.log-in .text-input {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.log-in .text {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.log-in .text-wrapper-10 {
+  align-self: stretch;
+  color: #2b2b2b;
+  font-family: "Cera Round Pro DEMO-Black", Helvetica;
+  font-size: 56px;
+  font-weight: 900;
+  letter-spacing: -1.68px;
+  line-height: 72px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.log-in .text-wrapper-11 {
+  align-self: stretch;
+  color: #2b2b2b;
+  font-family: "Cera Round Pro DEMO-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  opacity: 0.4;
+  position: relative;
+}
+
+.log-in .div-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.log-in .div-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.log-in .email-address {
+  align-self: stretch;
+  background: transparent;
+  border: none;
+  color: #2b2b2b;
+  font-family: "Cera Round Pro DEMO-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -1px;
+  padding: 0;
+  position: relative;
+}
+
+.log-in .input {
+  align-self: stretch;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #d6d6d6;
+  border-radius: 8px;
+  color: #2b2b2b80;
+  font-family: "Cera Round Pro DEMO-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 48px;
+  letter-spacing: 0;
+  line-height: 16px;
+  padding: 12px;
+  position: relative;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.log-in .text-wrapper-12 {
+  align-self: stretch;
+  color: #2b2b2b;
+  font-family: "Cera Round Pro DEMO-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.log-in .input-2 {
+  align-items: center;
+  align-self: stretch;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #d6d6d6;
+  border-radius: 8px;
+  display: flex;
+  height: 48px;
+  padding: 28px 16px 28px 12px;
+  position: relative;
+  width: 100%;
+}
+
+.log-in .text-wrapper-13 {
+  color: #2b2b2b80;
+  font-family: "Cera Round Pro DEMO-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -11px;
+  margin-top: -13px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.log-in .content-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.log-in .frame {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.log-in .rectangle {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #d6d6d6;
+  border-radius: 3px;
+  box-shadow: 0px 1px 1px #0000000f;
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.log-in .text-wrapper-14 {
+  color: #2b2b2b;
+  font-family: "Cera Round Pro DEMO-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.log-in .text-wrapper-15 {
+  color: #0077b6;
+  font-family: "Cera Round Pro DEMO-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.log-in .button-2 {
+  all: unset;
+  align-items: center;
+  align-self: stretch;
+  background-color: #0077b6;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px #00000014;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 20px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.log-in .text-wrapper-16 {
+  color: #ffffff;
+  font-family: "Cera Round Pro DEMO-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.log-in .button-2:hover {
+  background-color: #0077b6;
+  cursor: pointer;
+}
+
+.log-in .button-3 {
+  all: unset;
+  align-items: center;
+  align-self: stretch;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #d6d6d6;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 20px 16px;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.log-in .flat-color-icons {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.log-in .text-wrapper-17 {
+  color: #2b2b2b;
+  font-family: "Cera Round Pro DEMO-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.log-in .content-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 5px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.log-in .text-wrapper-18 {
+  color: #2b2b2b;
+  font-family: "Cera Round Pro DEMO-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.log-in .text-wrapper-19 {
+  color: #0077b6;
+  font-family: "Cera Round Pro DEMO-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.log-in .header-instance {
+  background-color: transparent !important;
+  left: 160px !important;
+  position: absolute !important;
+  top: 32px !important;
+}
+
+.a {
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .log-in .overlap-wrapper {
+    display: none;
+  }
+  .log-in .form {
+    width: 95%;
+  }
+  .log-in {
+    justify-content: center;
+  }
+}
+
+.animate_loading {
+  position: relative;
+  width: 100%;
+}
+
+.animate_loading::after {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  content: "";
+  background-color: white;
+  height: 4px;
+  width: 0%;
+  animation: animate_progress_bar 5s ease;
+}
+
+.animate_loading {
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  background-color: #ffc439;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.animate_loading .success {
+  background-color: #39ff71;
+}
+
+@keyframes animate_progress_bar {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}

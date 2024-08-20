@@ -1,0 +1,511 @@
+.landing_page_main_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.landing_page_wishlist_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.landing-page-heading-title {
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  font-family: "Cera Round Pro DEMO BLACK";
+  color: #2e2a57;
+  width: 79%;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 66px;
+  margin-top: 20px;
+}
+
+.landing-page-heading-description {
+  width: 90%;
+  margin-top: 24px;
+  font-size: 20px;
+  font-family: Cera Round Pro DEMO, sans-serif;
+  line-height: 35px;
+  font-weight: 500;
+  color: #807c77;
+}
+
+.landing-page-wishlist-container {
+  margin-left: 70px;
+}
+
+.landing-page-join-wishlist-btn {
+  font-family: "Cera Round Pro DEMO BOLD";
+  margin-top: 24px;
+  width: fit-content;
+  height: auto;
+  padding: 16px 30px;
+  border-radius: 10px;
+  background-color: #0077b6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  border: 1px solid #0077b6;
+  cursor: pointer;
+  width: 200px;
+}
+
+.landing-page-join-wishlist-btn-2 {
+  font-family: "Cera Round Pro DEMO BOLD";
+  margin-top: 24px;
+  width: fit-content;
+  height: auto;
+  padding: 16px 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0077b6;
+  font-size: 18px;
+  border: 1px solid #0077b6;
+  cursor: pointer;
+  width: 200px;
+}
+
+.landing-page-join-wishlist-btn-3 {
+  font-family: "Cera Round Pro DEMO BOLD";
+  margin-top: 24px;
+  width: fit-content;
+  height: auto;
+  padding: 16px 33px;
+  border-radius: 12px;
+  background-color: #0077b6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border: 1px solid #0077b6;
+  cursor: pointer;
+}
+
+.landing-page-join-wishlist-btn-2:hover {
+  color: white;
+  background-color: #0077b6;
+}
+
+.landing-page-join-wishlist-btn:hover {
+  background-color: rgb(255, 178, 35);
+}
+
+.landing-page-wishlist-input {
+  width: 80%;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 24px;
+  font-size: 18px;
+  padding: 13px 10px;
+  background-color: #f5f5f5;
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.landing-page-how-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  padding: 0px 70px;
+  width: 100%;
+}
+
+.landing-page-how-title {
+  color: #2e2a57;
+  font-size: 44px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Cera Round Pro DEMO BLACK";
+}
+
+.how-1 {
+  margin-top: 150px;
+  width: 100%;
+  height: 300px;
+  background-color: #fffaf2;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.how-2 {
+  margin-top: 200px;
+  width: 100%;
+  height: 300px;
+  background-color: #fffaf2;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.how-3 {
+  margin-top: 200px;
+  width: 100%;
+  height: 300px;
+  background-color: #fffaf2;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.how-joby-works-container {
+  width: 60%;
+  height: fit-content;
+  color: #000000;
+  z-index: 2;
+}
+
+.how-joby-works-title {
+  width: 80%;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Cera Round Pro DEMO BLACK";
+}
+
+.how-joby-works-description {
+  width: 80%;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 15px;
+  font-family: "Cera Round Pro DEMO REGULAR";
+}
+
+.landing_page_svg {
+  width: 50%;
+}
+
+.landing-page-svg {
+  width: 100%;
+}
+
+.landing_page_footer_container {
+  width: 1000px;
+  max-width: 95%;
+  background-color: hsla(38, 85%, 97%, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+
+.landing_page_footer_title {
+  font-weight: 500;
+  text-align: center;
+  font-family: "Cera Round Pro DEMO BLACK";
+  font-size: 2rem;
+  color: hsla(245, 35%, 25%, 1);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.landing_page_footer_subtitle {
+  font-size: 1.2rem;
+  line-height: 30px;
+  font-weight: 400;
+  color: #9f9c98;
+  text-align: center;
+  font-family: "Cera Round Pro DEMO MEDIUM";
+}
+
+@media (max-width: 850px) {
+  .landing_page_svg {
+    display: none;
+  }
+  .landing_page_wishlist_container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .landing-page-wishlist-container {
+    margin-left: 30px;
+  }
+  .landing-page-how-title {
+    padding: 30px;
+  }
+  .landing_page_footer_container {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .landing-page-wishlist-container {
+    margin-left: 25px;
+  }
+  .landing-page-how-title {
+    padding: 25px;
+  }
+  .landing_page_footer_container {
+    padding: 20px;
+  }
+}
+
+/* cards */
+
+.landing_page_cards_container {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing_page_card {
+  position: relative;
+  background-color: #fffaf2;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  height: fit-content;
+  height: 350px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.landing_page_card_content1 {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  display: flex;
+  height: 100%;
+  margin-left: 50px;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 20px 0px;
+}
+
+.landing_page_card_content2 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  display: flex;
+  height: 100%;
+  margin-left: 150px;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.landing_page_card_title {
+  width: 80%;
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  text-transform: capitalize;
+  text-align: start;
+  font-family: "Cera Round Pro DEMO BLACK";
+}
+
+.landing_page_card_subtitle {
+  width: 80%;
+  color: #808080;
+  font-family: "Cera Round Pro DEMO REGULAR";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: start;
+  margin-top: 18px;
+}
+
+.landing_page_card_img_container {
+  width: 50%;
+  overflow: hidden;
+}
+
+.landing_page_card_img1 {
+  width: 35%;
+  max-width: 90%;
+  position: absolute;
+  left: 0%;
+  top: -30%;
+  height: auto;
+}
+
+.landing_page_card_img2 {
+  width: 34%;
+  max-width: 80%;
+  position: absolute;
+  right: 0%;
+  top: -30%;
+  height: auto;
+}
+
+.landing_page_card_notepad_container {
+  width: 50%;
+  overflow: hidden;
+}
+
+.landing_page_card_notepad_img {
+  position: absolute;
+  width: 33%;
+  max-width: 80%;
+  height: auto;
+  top: 0%;
+}
+
+.landing_page_card_pen_img {
+  left: 0%;
+  width: 33%;
+  max-width: 80%;
+  position: absolute;
+  top: 0%;
+  z-index: 2;
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  .landing_page_card_content2 {
+    margin-left: 100px;
+  }
+  .landing_page_cards_container {
+    height: 300px;
+  }
+  .landing_page_card_img1,
+  .landing_page_card_img2 {
+    top: -20%;
+  }
+  .landing_page_cards_container {
+    margin-top: 100px;
+  }
+  .landing_page_card_title {
+    font-size: 18px;
+  }
+  .landing_page_card_subtitle {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .landing_page_cards_container {
+    height: 300px;
+  }
+  .landing_page_card_title {
+    font-size: 20px;
+  }
+  .landing_page_card_subtitle {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 820px) {
+  .landing_page_cards_container {
+    height: 260px;
+  }
+  .landing_page_card_title {
+    font-size: 16px;
+  }
+  .landing_page_card_subtitle {
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 20px;
+  }
+  .landing_page_cards_container {
+    margin-top: 50px;
+  }
+  .landing-page-join-wishlist-btn,
+  .landing-page-join-wishlist-btn-2,
+  .landing-page-join-wishlist-btn-3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .landing_page_card {
+    width: 90%;
+  }
+  .landing_page_cards_container {
+    height: 240px;
+  }
+  .landing_page_card_title {
+    font-size: 14px;
+  }
+  .landing_page_card_subtitle {
+    font-size: 10px;
+    margin-top: 5px;
+    line-height: 18px;
+  }
+  .landing_page_card_content2 {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .landing_page_cards_container {
+    margin-top: 10px;
+  }
+  .landing_page_card {
+    width: 95%;
+    height: 170px;
+  }
+  .landing_page_card_img_container {
+    width: 40%;
+  }
+  .landing_page_card_content1,
+  .landing_page_card_content2 {
+    width: 60%;
+  }
+  .landing_page_card_title {
+    font-size: 13px;
+  }
+  .landing_page_card_subtitle {
+    font-size: 9px;
+    margin-top: 5px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .landing_page_cards_container {
+    margin-top: 0px;
+  }
+  .landing_page_card {
+    width: 90%;
+    height: 160px;
+  }
+  .landing_page_card_title {
+    font-size: 12px;
+  }
+  .landing_page_card_subtitle {
+    font-size: 10px;
+    margin-top: 5px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .landing_page_card_title {
+    font-size: 10px;
+  }
+  .landing_page_card_subtitle {
+    font-size: 8px;
+    margin-top: 5px;
+    line-height: 14px;
+  }
+}

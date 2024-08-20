@@ -1,0 +1,86 @@
+.promote_job_adons_container {
+  width: 100%;
+  background-color: #fffaf3;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 70px;
+  font-family: "Cera Round Pro DEMO BOLD";
+}
+
+.adons_title {
+  font-size: 33px;
+  color: #2e2a57;
+  font-weight: 900;
+  font-family: "Cera Round Pro DEMO BLACK" !important;
+}
+
+.promote_jobs_list {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.promote_jobs_list li {
+  margin-bottom: 10px;
+}
+
+.adons_label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2e2a57;
+  font-family: "Cera Round Pro DEMO BLACK" !important;
+}
+
+.duration_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.duration {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.duration-date {
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.adons_amount {
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 35px;
+  color: #0077b6;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #999;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* Customize the radio input when checked */
+input[type="radio"]:checked {
+  border-color: #ffdc9e; /* Change the border color when checked */
+  background-color: #0077b6;
+}
+
+@media (max-width: 550px) {
+  .promote_job_adons_container {
+    padding: 30px 30px;
+  }
+}

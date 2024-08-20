@@ -1,0 +1,1 @@
+export { InstagramOriginal } from "./InstagramOriginal";

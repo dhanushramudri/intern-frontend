@@ -1,0 +1,124 @@
+.account-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+.account-container-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.account-setting {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding: 20px;
+  cursor: pointer;
+  text-wrap: nowrap;
+  word-break: keep-all;
+}
+
+.account-setting:hover {
+  background-color: #f9fafb;
+}
+
+.account-left-container {
+  width: 300px;
+  max-width: 90%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.account-right-container {
+  background-color: #f9fafb;
+  width: calc(100% - 400px);
+  max-width: 95%;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.account-message-box {
+  width: 90%;
+  height: fit-content;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cancel-subscription {
+  font-size: 1rem;
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+}
+
+.cancel-subscription:hover {
+  cursor: pointer;
+  background-color: #f9fafb;
+}
+
+.account-settings {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1000px) {
+  .account-container {
+    flex-direction: column;
+  }
+  .account-left-container {
+    width: 100%;
+    padding: 20px;
+  }
+  .account-right-container {
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+  }
+  .account-settings {
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+  }
+  .account-setting {
+    margin-bottom: 10px;
+  }
+  .account-container {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .account-container {
+    padding: 10px;
+  }
+  .account-left-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .account-right-container {
+    width: 100%;
+    padding: 10px;
+  }
+}

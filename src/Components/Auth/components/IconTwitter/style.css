@@ -1,0 +1,15 @@
+.icon-twitter {
+  background-color: #0077b6;
+  border-radius: 20px;
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.icon-twitter .twitter-original {
+  height: 21px !important;
+  left: 9px !important;
+  position: absolute !important;
+  top: 10px !important;
+  width: 21px !important;
+}

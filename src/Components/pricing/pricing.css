@@ -1,0 +1,211 @@
+.pricing-title-card {
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  background-color: hsla(38, 85%, 97%, 1);
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pricing-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #2e2a57;
+  font-family: "Cera Round Pro DEMO BLACK";
+}
+
+.pricing-subtitle {
+  width: 70%;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "Cera Round Pro DEMO REGULAR";
+  color: rgb(144, 144, 144);
+}
+
+.pricing-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  margin-top: 30px;
+  padding: 30px 70px;
+}
+
+.pricing-card {
+  position: relative;
+  width: 300px;
+  max-width: 95%;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.pricing-card-header-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.pricing-card-hr {
+  margin-top: 40px;
+  background-color: #eeee;
+  height: 1px !important;
+  width: 90%;
+}
+
+.pricing-card-price {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #0077b6;
+  font-size: 2rem;
+  font-family: 900;
+}
+
+.pricing-card-advantages {
+  position: relative;
+  margin-top: 20px;
+  width: 500px;
+  max-width: 90%;
+  margin-bottom: 70px;
+}
+
+.pricing-card-advantage {
+  text-align: start;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  justify-content: flex-start;
+  font-family: "Cera Round Pro DEMO REGULAR" !important;
+}
+
+.pricing-button-subscribe {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #0077b6;
+  color: white;
+  cursor: pointer;
+}
+
+.pricing-button-subscribe:hover {
+  background-color: hsl(38, 89%, 58%);
+}
+
+.pricing-card-advantage-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.pricing-alert {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 50px;
+}
+
+.pricing-alert-img {
+  width: 80%;
+}
+
+@media (max-width: 1000px) {
+  .pricing-cards {
+    padding: 20px 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .pricing-title-card {
+    padding: 15px;
+  }
+}
+
+.pricing-card-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding: 0px 10px;
+}
+
+.pricing-card-title {
+  font-family: "Cera Round Pro DEMO BOLD" !important;
+  font-size: 1.9rem;
+}
+
+.pricing-card-subtitle {
+  font-family: "Cera Round Pro DEMO BOLD" !important;
+  font-size: 1.4rem;
+  margin-top: 20px;
+}
+
+.pricing-card-cancel-anytime-text {
+  font-size: 1rem;
+  color: #c3c3c3;
+  margin-top: 20px;
+  font-family: "Cera Round Pro DEMO REGULAR" !important;
+}
+
+.pricing-buttons,
+.pricing-buttons-blocker {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pricing-button {
+  padding: 13px 25px;
+  border: none;
+  color: white;
+  background-color: #0077b6;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-family: "Cera Round Pro DEMO BOLD" !important;
+}
+
+.pricing-buttons-blocker {
+  flex-direction: column;
+}
+
+.pricing-button:hover {
+  background-color: hsl(38, 89%, 58%);
+}
+
+@media (max-width: 900px) {
+  .pricing-title-card,
+  .pricing-card-advantages,
+  .pricing-subtitle {
+    width: 90%;
+  }
+  .pricing-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}

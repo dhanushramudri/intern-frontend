@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.resumewrapper {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-family: "Cera Round Pro DEMO BOLD";
+}
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.content {
+  font-size: 1rem;
+  font-family: "Cera Round Pro DEMO MEDIUM";
+  line-height: 1.1;
+  font-weight: 400;
+  color: #2e2a57;
+}
+
+.resumewrapper h1 {
+  font-family: "Cera Round Pro DEMO BOLD";
+  font-size: 2.4rem;
+}
+
+.resumewrapper h4 {
+  font-family: "Cera Round Pro DEMO MEDIUM";
+  font-size: 1rem;
+}
+
+.resumewrapper h1,
+.resumewrapper h4 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.resumewrapper hr {
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+.sidewrapper {
+  filter: grayscale(0%); /* Exclude this child div from grayscale */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sideupper2 {
+  text-align: center;
+}
+.closebutton {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(61, 68, 81);
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.resumeconsumer {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+.resumebox {
+  border-radius: 10px;
+  height: 500px;
+  overflow-y: auto;
+}
+
+.content,
+.resumebox {
+  width: 400px;
+}
+.resume-header {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.headerresume {
+  font-family: "Cera Round Pro DEMO BLACK";
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.lowertexthead {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.571);
+  font-weight: 500;
+}
+.searchjobs {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.resume-header {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(229, 230, 230);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: rgb(169, 173, 178);
+}
+.circularwrapper {
+  width: 60px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.svgwrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+.svgwrapper:hover {
+  background-color: rgb(166, 168, 174);
+  border-radius: 10px;
+}
+.resumebody {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: calc(100% - 40px);
+  width: 100%;
+  background-color: rgb(243, 244, 246);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.jackpot {
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+}
+.inputbox {
+  border: none;
+  padding: 5px 10px;
+  width: 300px;
+  height: 150px;
+  margin: 0 !important;
+}
+.inputbox:focus {
+  outline: 2px solid rgb(86, 144, 198);
+}
+.selecthandle::-webkit-file-upload-button {
+  cursor: pointer;
+  background-color: rgb(61, 68, 81);
+  font-size: 15px;
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+}
+.generatebutton {
+  background-color: rgb(61, 68, 81);
+  font-size: 16px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.uploadresume {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.jobdes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  justify-content: space-evenly;
+}
+.searchjobs {
+  padding: 8px;
+  outline: none;
+  border: 2px solid rgb(244, 180, 72);
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.searchjobs:hover {
+  background-color: rgb(244, 180, 72);
+}
+
+@media (max-width: 850px) {
+  .resumewrapper {
+    flex-direction: column;
+  }
+  .resumebox {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .closebutton {
+    padding: 5px;
+  }
+  .sideupper2 {
+    padding: 10px;
+  }
+  .searchjobs {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .content,
+  .resumebox {
+    font-size: 10px;
+    width: 350px;
+  }
+}
+@media (max-width: 370px) {
+  .content,
+  .resumebox {
+    font-size: 10px;
+    width: 300px;
+  }
+  .resumebox {
+    height: 350px;
+  }
+  .selecthandle::-webkit-file-upload-button {
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  .sidewrapper {
+    width: 240px;
+    height: 170px;
+  }
+  .searchjobs {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .closebutton {
+    padding: 5px;
+  }
+  .inputbox {
+    width: 250px;
+  }
+  .sideupper2 {
+    padding: 10px;
+  }
+}
+.headercopy {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 60px;
+}
+.output {
+  font-weight: 600;
+  font-size: 20px;
+}
+.copy,
+.back {
+  padding: 6px;
+  font-size: 16px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.copy:hover,
+.back:hover {
+  background-color: black;
+  color: white;
+}
+.buttonwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.contentshowwrapper {
+  height: calc(100% - 60px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrappercontext {
+  height: 100%;
+  width: 100%;
+}
+.contentshow {
+  height: 100%;
+  width: 92%;
+  background-color: rgba(243, 244, 246);
+  padding: 5px;
+  overflow-y: auto;
+  display: block;
+}

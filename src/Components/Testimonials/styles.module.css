@@ -1,0 +1,142 @@
+.testimonials_container {
+  position: relative;
+  width: 100%;
+  padding: 100px;
+  background-color: hsla(35, 100%, 98%, 1);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.testimonials_title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #2E2A57;
+  font-family: "Cera Round Pro DEMO BLACK";
+}
+
+.testimonials_subtitle {
+  color: #9f9c98;
+  font-size: 1.2rem;
+  line-height: 24px;
+  font-weight: 200;
+  margin-bottom: 60px;
+  width: 50%;
+  font-family: "Cera Round Pro DEMO REGULAR";
+}
+
+.testimonials_cards {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  width: 100%;
+  height: fit-content;
+}
+
+.testimonials_cards::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+  background-color: transparent;
+}
+
+.testimonial_left_btn {
+  position: relative;
+  height: 50px;
+  width: 30px;
+  z-index: 2;
+  font-size: 3rem;
+  font-weight: 800;
+  color: black;
+  user-select: none;
+  cursor: pointer;
+}
+
+.testimonial_right_btn {
+  user-select: none;
+  position: relative;
+  height: 50px;
+  width: 30px;
+  z-index: 2;
+  font-size: 3rem;
+  font-weight: 800;
+  color: black;
+  cursor: pointer;
+}
+
+.testimonials_card {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  min-width: 350px;
+  height: fit-content;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.stars {
+  width: 100px;
+  height: auto;
+}
+
+.testimonial {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 20px;
+  color: #9f9c98;
+  font-family: "Cera Round Pro DEMO MEDIUM";
+}
+
+.testimonial_user {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-family: "Cera Round Pro DEMO BLACK";
+}
+
+.testimonial_user_img {
+  width: 60px;
+}
+
+.user_details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.user_role {
+  font-family: "Cera Round Pro DEMO MEDIUM";
+  color: hsla(0, 0%, 74%, 1);
+}
+
+.buttons_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .testimonials_container {
+    padding: 50px;
+  }
+  .testimonials_title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .testimonials_container {
+    padding: 20px;
+  }
+  .testimonials_subtitle {
+    width: 90%;
+  }
+  .testimonial_right_btn {
+    margin-right: 5px;
+  }
+}

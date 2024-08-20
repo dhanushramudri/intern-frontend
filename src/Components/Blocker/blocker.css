@@ -1,0 +1,102 @@
+.blocker-container {
+  height: fit-content;
+  padding: 40px 0px;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  z-index: 999;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.9),
+    #fff,
+    #fff
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  text-align: center;
+  /* font-family: "Cera Round Pro DEMO BOLD"; */
+}
+
+.blocker {
+  width: 550px;
+  max-width: 90%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blocker-items-container {
+  width: 100%;
+}
+
+.blocker-title {
+  font-family: "Cera Round Pro DEMO BOLD";
+}
+
+.blocker-title p {
+  font-family: "Cera Round Pro DEMO REGULAR" !important;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.feature_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 40px;
+  text-align: start;
+  margin-bottom: 40px;
+}
+
+.feature_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+  flex-wrap: nowrap;
+}
+
+.feature_item_img {
+  height: 100px;
+  width: 100px;
+}
+
+.feature_item_content {
+  width: 70%;
+}
+
+.feature_item_title {
+  font-family: "Cera Round Pro DEMO BOLD";
+  font-size: 1.05rem;
+}
+
+.feature_item_description {
+  font-family: "Cera Round Pro DEMO REGULAR";
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 1.3;
+  font-size: 0.85rem;
+  color: #808080;
+}
+
+@media (max-width: 500px) {
+  .feature_item_title {
+    font-size: 0.8rem !important;
+  }
+  .blocker-title p {
+    font-size: 0.9rem;
+  }
+  .feature_item_description {
+    font-size: 0.8rem;
+  }
+  .feature_item_content {
+    width: 100%;
+  }
+}

@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Cera Round Pro DEMO BLACK";
+  src: url("./Fonts/CeraRoundProDEMO-Black.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cera Round Pro DEMO BOLD";
+  src: url("./Fonts/CeraRoundProDEMO-Bold.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cera Round Pro DEMO MEDIUM";
+  src: url("./Fonts/CeraRoundProDEMO-Medium.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cera Round Pro DEMO REGULAR";
+  src: url("./Fonts/CeraRoundProDEMO-Regular.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  font-family: "Cera Round Pro DEMO BOLD";
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

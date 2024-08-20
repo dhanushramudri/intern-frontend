@@ -1,0 +1,52 @@
+.logo {
+  align-items: center;
+  display: inline-flex;
+  gap: 6px;
+  height: 48px;
+  position: relative;
+}
+
+.logo .p {
+  color: transparent;
+  font-family: "Satoshi-Bold", Helvetica;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.logo .text-wrapper-6 {
+  color: #0077b6;
+}
+
+.logo .text-wrapper-7 {
+  color: #000000;
+}
+
+.logo .div-wrapper {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 9px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 5px 16px;
+  position: relative;
+}
+
+.logo .text-wrapper-8 {
+  color: #aaadaa;
+  font-family: "Satoshi-Bold", Helvetica;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

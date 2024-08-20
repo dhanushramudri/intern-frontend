@@ -1,0 +1,1 @@
+export { IconInst } from "./IconInst";

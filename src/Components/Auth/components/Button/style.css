@@ -1,0 +1,54 @@
+.button {
+  border-radius: 10px;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.button .log-in-2 {
+  font-family: "Cera Round Pro DEMO-Bold", Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button.faded {
+  align-items: center;
+  background-color: var(--primarylught-orange);
+  display: flex;
+  justify-content: center;
+  width: 135px;
+}
+
+.button.stroke {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--primaryorange);
+  display: inline-flex;
+}
+
+.button.primary {
+  align-items: center;
+  background-color: var(--primaryorange);
+  display: flex;
+  justify-content: center;
+  width: 135px;
+}
+
+.button.faded .log-in-2 {
+  color: #c0aa89;
+}
+
+.button.stroke .log-in-2 {
+  color: #1a1a1b;
+}
+
+.button.primary .log-in-2 {
+  color: #ffffff;
+}
